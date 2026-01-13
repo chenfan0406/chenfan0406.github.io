@@ -5,6 +5,7 @@ export default defineConfig({
   title: "jstoolpack",
   description: "this is jstoolpack api website",
   lang: "zh-CN",
+  base: "/", // 🔥 必须是 /
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // 上面的导航
@@ -93,4 +94,3 @@ export default defineConfig({
     ],
   },
 });
-
