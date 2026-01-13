@@ -7,7 +7,8 @@ export default defineConfig({
   lang: "zh-CN",
   base: "/", // 🔥 必须是 /
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    // https://vitepress.dev/reference/default-theme-config1
+    // centerLogo: true,
     // 上面的导航
     nav: [
       { text: "Guide", link: "/guide/introduction/what-is-vitepress" },
